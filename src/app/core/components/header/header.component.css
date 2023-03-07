@@ -12,7 +12,7 @@
     padding-inline: 1.5rem;
 }
 .navbar{
-    height: 7.5rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,12 +31,13 @@
     list-style: none;
     display: flex;
     gap: 2.5rem;
-    margin-left: 5rem;
-    margin-right: auto;
+    margin-right: 1.5rem;
+    margin-left : auto;
 }
 .nav-link{
     transition: color .25s;
     font-weight: bold;
+    color:#fff;
 }
 .nav-link:hover{
     color: #d3d3d3;
@@ -58,7 +59,7 @@ header.active{
     rgba(0,0,0,0.1);
 }
 header.active .navbar{
- height: 6rem;
+ height: 3rem;
 }
 header.active .logo,
  header.active .nav-link {

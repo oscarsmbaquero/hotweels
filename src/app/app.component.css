@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body {
+    background-image: url('https://i.pinimg.com/750x/bd/2d/8e/bd2d8e14f2b6fb3d19b83cfcaad81dea.jpg');
+    min-height: 140vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  
